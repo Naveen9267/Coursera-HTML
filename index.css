@@ -1,0 +1,135 @@
+* {
+        margin:0px;
+        padding: 0px;
+}
+header {
+        margin: 10vh auto;
+}
+h1 {
+        text-align: center;
+        font-size: 35px;
+}
+section {
+        margin-top: 10vh;
+}
+div {
+        font-size: 20px;
+        padding: 10px 10px 10px 20px;
+        background-color: rgba(0,0,0,0.1);
+        box-sizing: border-box;
+        border: 3px solid;
+        box-shadow: 0 5px 10px  rgba(0,0, 0, 0.30);       
+}
+span {
+        float: right;
+        padding: 2px 50px;
+        margin: -13px -13px 5px 0;  
+        border: 3px solid;
+}
+#box1 span{
+        background-color: #12e67c;
+}
+#box2 span{
+        background-color: #ffc501;
+}
+#box3 span{
+        background-color:#fe9600;
+}
+p{
+        clear: both;
+}
+#box1:hover {
+        background-color:#0ff;
+
+}
+#box2:hover {
+        background-color: #0ff;
+
+}
+#box3:hover {
+        background-color: #0ff;
+}
+
+/* ----------------Media Queries Begin---------------*/
+
+@media (min-width:5px) and (max-width: 767px ){
+        header {
+                margin: 4vh auto;
+        }
+        section{
+                margin: 4vh auto;
+                width: 100%;
+        }
+        
+        div{
+                width: 94%;
+                margin: 4vh 3%;
+        }
+}
+
+/* -----------------medium devices---------------- */
+@media (min-width: 768px) and (max-width: 991px ) {
+        header {
+                margin: 5vh auto;
+        }
+        section {
+                margin-top: 5vh;
+        }
+        div {
+                float:left;
+                width: 46%;
+        }
+        #box1{
+                margin: 0 1% 0 3%;
+        }
+        #box2{
+                margin: 0 3% 0  1%;
+        }
+        #box3 {
+                clear: both;
+                width: 94%;
+                margin: 3%;
+        }
+
+}
+
+
+/* --------------large devices------------ */
+@media (min-width:992px) {
+header {
+        margin: 10vh auto;
+}
+h1 {
+        text-align: center;
+        font-size: 35px;
+}
+section {
+        margin-top: 10vh;
+}
+div {
+        font-size: 20px;
+        float: left;
+        width: 30%;
+        padding: 10px 10px 10px 20px;
+        font-size: 20px;
+        background-color: rgba(0,0,0,0.1);
+        box-sizing: border-box;
+        border: 3px solid;
+        box-shadow: 0 5px 10px  rgba(0,0, 0, 0.30);
+        
+}
+#box1 {
+        /* background-color: red; */
+        margin-left: 3%;
+}
+#box2 {
+        /* background-color: green; */
+        margin-left: 2%;
+}
+#box3 {
+        /* background-color: blue; */
+        margin-left: 2%;
+        margin-right: 3%;
+}
+}
+
