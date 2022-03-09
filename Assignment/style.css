@@ -1,0 +1,22 @@
+div.col-xxl-4 {
+        background-color: rgba(241, 30, 30, 0.2);
+        margin-bottom: 30px;
+        margin-top: 20px;
+        padding-top: 10px;
+}
+
+@media  (min-width:556px) {
+        .nav-item{
+                display: none;
+        }
+        
+}
+@media  (max-width:556px) {
+        .row {
+                margin: 0px 20px;
+        }
+        .row>div{
+                padding-left: 20px;
+        }
+        
+}
